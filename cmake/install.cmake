@@ -67,6 +67,6 @@ install(EXPORT secureJoinTargets
 install(DIRECTORY secure-join DESTINATION include/secureJoin)
 
 install(FILES 
-    out/build/linux/secure-join/config.h   # Install the generated config.h
+    out/build/${SECUREJOIN_CONFIG}/secure-join/config.h   # Install the generated config.h
     DESTINATION include/secureJoin/secure-join
 )
