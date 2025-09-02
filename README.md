@@ -1,5 +1,7 @@
 # Secure Join
 
+## No longer maintained, see https://github.com/ladnir/secure-join
+
 Secure Join implements oblivious two party database joins on secret shared table. It include the permutation protocols of [iacr/2024/547](https://eprint.iacr.org/2024/547) and the Alternating Moduli secret shared PRF protocols of [iacr/2024/582](https://eprint.iacr.org/2024/582).
 
 ### Build
