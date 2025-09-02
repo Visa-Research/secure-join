@@ -4,7 +4,7 @@
 #include "cryptoTools/Common/TestCollection.h"
 
 using namespace secJoin;
-template<u64 n>
+template<size_t n>
 auto& bytes(const std::bitset<n>&b)
 {
 	return *(std::array<u8, sizeof(b)>*)&b;
